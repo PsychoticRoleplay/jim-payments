@@ -39,7 +39,7 @@ Citizen.CreateThread(function()
 end)
 
 RegisterNetEvent('jim-payments:client:Charge', function()
-	if not onDuty then TriggerEvent("QBCore:Notify", "Not Clocked in!", "error") return end  -- Require to be on duty when making a payment
+	--if not onDuty then TriggerEvent("QBCore:Notify", "Not Clocked in!", "error") return end  -- Require to be on duty when making a payment
 	local onlineList = {}
 	local nearbyList = {}
 	QBCore.Functions.TriggerCallback('jim-payments:MakePlayerList', function(cb) onlineList = cb if onlineList[1] == nil then Wait(200) end
