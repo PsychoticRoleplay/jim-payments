@@ -26,6 +26,7 @@ CreateThread(function()
 	end
 end)
 
+
 RegisterNetEvent('jim-payments:client:Charge', function(data, outside)
 	if outside == nil then outside = false end
 	if not outside and not onDuty then TriggerEvent("QBCore:Notify", "Not Clocked in!", "error") return end  -- Require to be on duty when making a payment
