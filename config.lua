@@ -75,7 +75,7 @@ Config = {
 	-- Basically adding ready made locations, all you need to a vector4 and to confrim if you need a new prop in that location
     CustomCashRegisters = {
 		["blazeit"] = { -- Player job role restriction
-			{ coords = vector4(-1478.161, -394.469, 39.065, 299.743), prop = true, }, -- vector4 to place the till and the way it faces
+			{ coords = vector4(-1478.161, -394.469, 39.065, 299.743), prop = false, }, -- vector4 to place the till and the way it faces
       	},
 		["masterbait"] = { -- Player job role restriction
 			{ coords = vector4(-1592.667, 5198.268, 4.337, 207.548), prop = true, }, -- vector4 to place the till and the way it faces
