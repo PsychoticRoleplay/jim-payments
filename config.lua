@@ -87,6 +87,9 @@ Config = {
 			{ coords = vector4(-3024.462, 36.07, 10.16, 318.01), prop = true, }, -- vector4 to place the till and the way it faces
 			{ coords = vector4(-3028.006, 61.212, 11.655, 156.866), prop = true, }, -- vector4 to place the till and the way it faces
       	},
+		["digitalden"] = {
+			{ coords = vector4(1133.245, -468.484, 66.646, 168.867), prop = false, },
+		},
 	},
 
 	-- The /polcharge command requires specific jobs to be set
