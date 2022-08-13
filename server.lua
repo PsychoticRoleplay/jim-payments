@@ -71,6 +71,8 @@ RegisterServerEvent('jim-payments:Tickets:Give', function(data, biller, gang)
 		end
 	end
 	-- Commission section, does each config option separately
+	-- print(data.society)
+	if not Config.Jobs[data.society] then return end
 	local comm = tonumber(Config.Jobs[data.society].Commission)
 	if Config.Commission and comm ~= 0 then
 		if Config.CommissionLimit and data.amount < Config.Jobs[data.society].MinAmountforTicket then return end
@@ -161,7 +163,7 @@ RegisterServerEvent("jim-payments:server:PayPopup", function(data)
 	if data.gang == true then newdata.society = biller.PlayerData.gang.name end
 	if data.accept == true then
 		billed.Functions.RemoveMoney(tostring(data.billtype), data.amount)
-		TriggerEvent('jim-payments:Tickets:Give', newdata, biller, data.gang)
+		-- TriggerEvent('jim-payments:Tickets:Give', newdata, biller, data.gang)
 		TriggerEvent('qb-banking:society:server:DepositMoney', data.amount, biller.PlayerData.job.name)
 
 		TriggerClientEvent("QBCore:Notify", data.biller, billed.PlayerData.charinfo.firstname.." accepted the $"..data.amount.." payment", "success")

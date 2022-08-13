@@ -44,8 +44,8 @@ Config = {
 
 	CashInLocation = vector4(252.23, 223.11, 106.29, 159.2), -- Default Third Window along in Pacific Bank
 
-	TicketSystem = true, -- Enable this if you want to use the ticket system false
-	TicketSystemAll = true, -- Enable this to give tickets to all workers clocked in
+	TicketSystem = false, -- Enable this if you want to use the ticket system false
+	TicketSystemAll = false, -- Enable this to give tickets to all workers clocked in
 
 	Commission = false, -- Set this to true to enable Commissions and give the person charging a percentage of the total
 	CommissionAll = false, -- Set this to true to give commission to workers clocked in
