@@ -44,8 +44,8 @@ Config = {
 
 	CashInLocation = vector4(252.23, 223.11, 106.29, 159.2), -- Default Third Window along in Pacific Bank
 
-	TicketSystem = true, -- Enable this if you want to use the ticket system false
-	TicketSystemAll = true, -- Enable this to give tickets to all workers clocked in
+	TicketSystem = false, -- Enable this if you want to use the ticket system false
+	TicketSystemAll = false, -- Enable this to give tickets to all workers clocked in
 
 	Commission = false, -- Set this to true to enable Commissions and give the person charging a percentage of the total
 	CommissionAll = false, -- Set this to true to give commission to workers clocked in
@@ -87,6 +87,9 @@ Config = {
 			{ coords = vector4(-3024.462, 36.07, 10.16, 318.01), prop = true, }, -- vector4 to place the till and the way it faces
 			{ coords = vector4(-3028.006, 61.212, 11.655, 156.866), prop = true, }, -- vector4 to place the till and the way it faces
       	},
+		["digitalden"] = {
+			{ coords = vector4(1133.245, -468.484, 66.646, 168.867), prop = false, },
+		},
 	},
 
 	-- The /polcharge command requires specific jobs to be set
