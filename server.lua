@@ -164,7 +164,7 @@ RegisterServerEvent("jim-payments:server:PayPopup", function(data)
 	if data.accept == true then
 		billed.Functions.RemoveMoney(tostring(data.billtype), data.amount)
 		-- TriggerEvent('jim-payments:Tickets:Give', newdata, biller, data.gang)
-		TriggerEvent('qb-banking:society:server:DepositMoney', data.amount, biller.PlayerData.job.name)
+		exports['simple-banking']:SocietyDepositMoney(biller.PlayerData.job.name,data.amount)
 
 		TriggerClientEvent("QBCore:Notify", data.biller, billed.PlayerData.charinfo.firstname.." accepted the $"..data.amount.." payment", "success")
 	elseif data.accept == false then
