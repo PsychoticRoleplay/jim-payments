@@ -90,6 +90,9 @@ Config = {
 		["digitalden"] = {
 			{ coords = vector4(1133.245, -468.484, 66.646, 168.867), prop = false, },
 		},
+		["sagma"] = {
+			{ coords = vector4(-422.684, 31.931, 46.643, 130.567), prop = false, },
+		},
 	},
 
 	-- The /polcharge command requires specific jobs to be set
