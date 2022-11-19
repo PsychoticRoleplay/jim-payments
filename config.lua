@@ -93,6 +93,9 @@ Config = {
 		["sagma"] = {
 			{ coords = vector4(-422.684, 31.931, 46.643, 130.567), prop = false, },
 		},
+		["tanuki"] = {
+			{ coords = vector4(846.534, -3188.498, 5.785, 271.389), prop = true },
+		},
 	},
 
 	-- The /polcharge command requires specific jobs to be set
