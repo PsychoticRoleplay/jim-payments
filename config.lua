@@ -96,6 +96,13 @@ Config = {
 		["tanuki"] = {
 			{ coords = vector4(846.534, -3188.498, 5.785, 271.389), prop = true },
 		},
+		["mirror"] = {
+			{ coords = vector4(-1347.869, -1060.74, 11.495, 130.754), prop = true, }, -- vector4 to place the till and the way it faces
+			{ coords = vector4(-1346.844, -1040.406, 20.036, 280.774), prop = true, }, -- vector4 to place the till and the way it faces
+			{ coords = vector4(-1337.195, -1072.139, 6.852, 119.918), prop = true, }, -- vector4 to place the till and the way it faces
+			{ coords = vector4(-1349.828, -1054.989, 3.488, 68.25), prop = true, }, -- vector4 to place the till and the way it faces
+
+		}
 	},
 
 	-- The /polcharge command requires specific jobs to be set
