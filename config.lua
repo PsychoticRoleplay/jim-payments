@@ -101,7 +101,10 @@ Config = {
 			{ coords = vector4(-1346.844, -1040.406, 20.036, 280.774), prop = true, }, -- vector4 to place the till and the way it faces
 			{ coords = vector4(-1337.195, -1072.139, 6.852, 119.918), prop = true, }, -- vector4 to place the till and the way it faces
 			{ coords = vector4(-1349.828, -1054.989, 3.488, 68.25), prop = true, }, -- vector4 to place the till and the way it faces
-
+		},
+		["pizzathis"] = {
+			{ coords = vector4(-1193.854, -1404.317, 4.523, 37.753), prop = true, }, -- vector4 to place the till and the way it faces
+			
 		}
 	},
 
