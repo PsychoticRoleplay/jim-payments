@@ -90,8 +90,8 @@ Config = {
 		["digitalden"] = {
 			{ coords = vector4(1133.245, -468.484, 66.646, 168.867), prop = false, },
 		},
-		["sagma"] = {
-			{ coords = vector4(-422.684, 31.931, 46.643, 130.567), prop = false, },
+		["comicstore"] = {
+			{ coords = vector4(-141.143, 224.683, 95.124, 94.921), prop = false, },
 		},
 		["tanuki"] = {
 			{ coords = vector4(846.534, -3188.498, 5.785, 271.389), prop = true },
